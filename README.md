@@ -1,4 +1,4 @@
-# LAB - Class 04
+# LAB - Class 03
 ## Project: MADLIB
 ### Author: ibrahim adnan
 
