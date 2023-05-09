@@ -39,6 +39,7 @@ def addFile(result):
         f.write(result)
 
 def main():
+    
     intro()
     
     template = read_template("./assets/madlib-cli.txt")
