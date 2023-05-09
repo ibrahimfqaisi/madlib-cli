@@ -40,6 +40,7 @@ def addFile(result):
 
 def main():
     intro()
+    
     template = read_template("./assets/madlib-cli.txt")
     expected_stripped, expected_parts = parse_template(template)
     user_inputs = []
