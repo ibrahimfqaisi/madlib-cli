@@ -34,15 +34,14 @@ def intro():
 def user_input(word,number):
     user_input = input(f"this input {number}from 21 {word}>")
     return user_input
+
 def addFile(result):
     with open('assets/write.txt', mode='w') as f : 
         f.write(result)
 
 def main():
-    
     intro()
-    
-    template = read_template("./assets/madlib-cli.txt")
+    template = read_template("/home/ibrahim/madlib-cli/assets/madlib-cli.txt")
     expected_stripped, expected_parts = parse_template(template)
     user_inputs = []
     number=0
